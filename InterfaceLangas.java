@@ -338,7 +338,7 @@ public class InterfaceLangas extends javax.swing.JFrame {
         fos.close();
         stdout.close();
         
-        System.out.println("Proceduros pabaiga. " + (indeks) + " irasu rasta.");
+        System.out.println("Proceduros pabaiga. " + (indeks-1) + " irasu rasta.");
         print_line.println("Procedūros pabaiga.");               
         } //try pabaiga
         catch(Exception ee)
@@ -358,7 +358,7 @@ public class InterfaceLangas extends javax.swing.JFrame {
         
         textfield1 = new JTextField("jdbc:oracle:thin:@alma-ora12.vgtu.lt:1521:alma");
         textfield2 = new JTextField("DSPS");
-        textfield3 = new JPasswordField("VHfJXQ1M5ioR");
+        textfield3 = new JPasswordField("123456");
         
         f.setLocationRelativeTo(null);
                 
